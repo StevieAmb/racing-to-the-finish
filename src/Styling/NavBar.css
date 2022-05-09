@@ -1,0 +1,11 @@
+.nav-bar {
+  background-color: #002c3e;
+  height: 8.5vh;
+}
+
+svg {
+  margin-top: 1.5vh;
+  margin-left: -0.5vw;;
+  height: 5vh;
+  width: 5vw;
+}
