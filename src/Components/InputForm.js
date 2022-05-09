@@ -8,9 +8,24 @@ class InputForm extends Component {
     }
   }
 
+  handleSubmit = (e) => {
+    e.preventDefault()
+    const newTime = this.state.time
+    this.props.addTime(newTime)
+    this.clearInputs()
+  }
+
+  handleTime = (e) => {
+    this.setState({time: e.target.value})
+  }
+
+  clearInputs = () => {
+    this.setState({time: ''})
+  }
+
   render() {
     return (
-      <section>
+      <form>
         <label className="form-label">
           Race Time:
         </label>
@@ -20,10 +35,11 @@ class InputForm extends Component {
           name="time-form"
           value={this.state.time}
           placeholder="Format: 12:00 PM, Day 3"
+          onChange={e => {this.handleTime(e)}}
           required
         />
-        <button>Submit</button>
-      </section>
+        <button onClick={e => {this.handleSubmit(e)}}>Submit</button>
+      </form>
     )
   }
 }
