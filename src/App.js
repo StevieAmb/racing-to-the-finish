@@ -16,6 +16,7 @@ class App extends Component {
   addTime = (newTime) => {
     this.setState({userTimeInputs:[...this.state.userTimeInputs, newTime]})
   }
+
   
   
   render() {
@@ -25,7 +26,7 @@ class App extends Component {
         <NavBar />
         <InputForm addTime={this.addTime} />
         <UserInputContainer userInputTimes={this.state.userTimeInputs} />
-          <AvgsContainer />
+          <AvgsContainer userInputs={this.state.userTimeInputs}/>
         </main>
       </body>
     );
