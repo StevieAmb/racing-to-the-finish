@@ -3,6 +3,7 @@ import AvgsContainer from './Components/AvgsContainer';
 import './Styling/App.css';
 import NavBar from './Components/NavBar';
 import InputForm from './Components/InputForm';
+import UserInputContainer from './Components/UserInputContainer';
 
 class App extends Component {
   constructor() {
@@ -12,6 +13,9 @@ class App extends Component {
     }
   }
 
+  addTime = (newTime) => {
+    this.setState({userTimeInputs:[...this.state.userTimeInputs, newTime]})
+  }
   
   
   render() {
@@ -19,7 +23,8 @@ class App extends Component {
       <body>
         <main className='App'>
         <NavBar />
-        <InputForm />
+        <InputForm addTime={this.addTime} />
+        <UserInputContainer userInputTimes={this.state.userTimeInputs} />
           <AvgsContainer />
         </main>
       </body>
