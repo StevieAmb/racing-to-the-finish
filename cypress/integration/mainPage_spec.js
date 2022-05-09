@@ -4,7 +4,7 @@ describe('Main Page', () => {
   })
 
   it('User should see the nav bar, the input field which they can type into and submit information, the submit button, the list of times submitted, and the avg minutes', () => {
-    cy.get('.nav-bar').contains('Bitly Logo')
+    cy.get('.nav-bar').contains('svg')
     .get('label').contains('Race Time:')
     .get('input').type('02:00 PM, DAY 19')
     .get('button').contains('Submit').click()
