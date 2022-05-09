@@ -3,13 +3,29 @@ describe('Main Page', () => {
     cy.visit('http://localhost:3000/')
   })
 
-  it('User should see the nav bar, the input field which they can type into and submit information, submit button, and the avg minutes', () => {
+  it('User should see the nav bar, the input field which they can type into and submit information, the submit button, the list of times submitted, and the avg minutes', () => {
     cy.get('.nav-bar').contains('Bitly Logo')
     .get('label').contains('Race Time:')
-    .get('input').type('Hello World')
+    .get('input').type('02:00 PM, DAY 19')
     .get('button').contains('Submit').click()
-    .get('li').contains('Hello World')
-    .get('.avg-display').contains('Your Avg Time in')
+    .get('input').type('02:00 PM, DAY 20')
+    .get('button').contains('Submit').click()
+    .get('input').type('01:58 PM, DAY 20')
+    .get('button').contains('Submit').click()
+    .get('.input-times')
+    .children('li')
+    .eq(0)
+    .contains('02:00 PM, DAY 19')
+    .get('.input-times')
+    .children('li')
+    .eq(1)
+    .contains('02:00 PM, DAY 20')
+    .get('.input-times')
+    .children('li')
+    .eq(2)
+    .contains('01:58 PM, DAY 20')
+    .get('.avg-display').contains('The average for racing in minutes is equal to 27239')
   })
 
 })
+
