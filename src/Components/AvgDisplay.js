@@ -1,9 +1,9 @@
 import React from "react";
 
-const AvgDisplay = () => {
+const AvgDisplay = ({average}) => {
   return(
     <article className="avg-display">
-      Your Avg Time in Minutes is: 32983239392 minutes
+     The average for racing in minutes is equal to {average}
     </article>
   )
 }
