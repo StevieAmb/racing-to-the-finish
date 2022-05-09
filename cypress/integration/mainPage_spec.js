@@ -25,7 +25,7 @@ describe('Main Page', () => {
     .children('li')
     .eq(2)
     .contains('01:58 PM, DAY 20')
-    .get('.avg-display').contains('The average for racing in minutes is equal to 27239')
+    .get('.avg-display').contains('27239 minutes total.')
   })
 
 })
