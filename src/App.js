@@ -26,7 +26,7 @@ class App extends Component {
         <NavBar />
         <InputForm addTime={this.addTime} />
         <UserInputContainer userInputTimes={this.state.userTimeInputs} />
-          <AvgsContainer userInputs={this.state.userTimeInputs}/>
+        <AvgsContainer userInputs={this.state.userTimeInputs}/>
         </main>
       </body>
     );
