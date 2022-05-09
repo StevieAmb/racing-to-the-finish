@@ -12,9 +12,8 @@ const UserInputContainer = ({userInputTimes}) => {
     )
   })
   return (
-    <section>
+    <section className="input-times">
       {allTimes}
-      <button>Get Average In Minutes</button>
     </section>
   )
 }
