@@ -4,7 +4,8 @@ describe('Main Page', () => {
   })
 
   it('User should see the nav bar, the input field which they can type into and submit information, the submit button, the list of times submitted, and the avg minutes', () => {
-    cy.get('.nav-bar').contains('Bitly Logo')
+    cy.get('.nav-bar')
+    .get('svg')
     .get('label').contains('Race Time:')
     .get('input').type('02:00 PM, DAY 19')
     .get('button').contains('Submit').click()
@@ -24,7 +25,7 @@ describe('Main Page', () => {
     .children('li')
     .eq(2)
     .contains('01:58 PM, DAY 20')
-    .get('.avg-display').contains('The average for racing in minutes is equal to 27239')
+    .get('.avg-display').contains('27239 minutes total.')
   })
 
 })

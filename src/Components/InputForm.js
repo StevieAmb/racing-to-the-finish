@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import '../Styling/InputForm.css'
 
 class InputForm extends Component {
   constructor() {
@@ -29,16 +30,18 @@ class InputForm extends Component {
         <label className="form-label">
           Race Time:
         </label>
-        <input
-          type="text"
-          id="time-form"
-          name="time-form"
-          value={this.state.time}
-          placeholder="Format: 12:00 PM, Day 3"
-          onChange={e => {this.handleTime(e)}}
-          required
-        />
-        <button onClick={e => {this.handleSubmit(e)}}>Submit</button>
+        <div className="user-input">
+          <input
+            type="text"
+            id="time-form"
+            name="time-form"
+            value={this.state.time}
+            placeholder="Format: 12:00 PM, Day 3"
+            onChange={e => {this.handleTime(e)}}
+            required
+          />
+          <button className="submit-button" onClick={e => {this.handleSubmit(e)}}>Submit</button>
+        </div>
       </form>
     )
   }

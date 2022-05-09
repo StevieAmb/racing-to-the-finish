@@ -1,5 +1,6 @@
 import React from "react";
 import AvgDisplay from "./AvgDisplay";
+import '../Styling/AvgContainer.css'
 
 const AvgsContainer = ({userInputs}) => {
 
