@@ -1,5 +1,6 @@
 import React from "react";
 import UserInputDisplay from "./UserInputDisplay";
+import '../Styling/UserInputContainer.css'
 
 const UserInputContainer = ({userInputTimes}) => {
   let allTimes = userInputTimes.map(input => {
