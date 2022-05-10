@@ -12,7 +12,6 @@ const AvgsContainer = ({userInputs}) => {
         racingHours = racingHours - 8
       } else if (input.includes('AM') && racingHours === 12) {
         racingHours = (12 - 8) + racingHours
-        console.log('racingHours', racingHours, 'days', racingDays)
         racingDays = racingDays - 1
       } else if (input.includes('PM') && racingHours < 12) {
         racingHours = (12 - 8) + racingHours
