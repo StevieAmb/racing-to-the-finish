@@ -2,7 +2,7 @@ import React from "react";
 
 const UserInputDisplay = ({time}) => {
   return(
-    <li>
+    <li className="input-list">
       {time}
     </li>
   )
