@@ -4,11 +4,12 @@ How long would it take someone to get to one of the tips Bermuda Triangle from R
 
 Why in minutes?
 
-Where will you find sailors to put in this information into the app for you?
+Where will you find sailors to put in this information into the app for you, if you don't happen to be one?
 
-I can answer the first question, but not the second one. 
+I can answer the first question, but not the second. Some mysteries are meant to be unsolved...
 
-I take it you've seen this [video](https://www.youtube.com/watch?v=-r2xXtSsPV0). Well, if we believe Johnathan Larson, and there are 525,600 minutes in a year, you can use the app to find out what percentage of the year it'll take you to sail from Rhode Island to one of the points of the Bermuda triangle. Specifically Bermuda.
+Answer: I take it you've seen this [video](https://www.youtube.com/watch?v=-r2xXtSsPV0). 
+Well, if we believe Johnathan Larson, and there are 525,600 minutes in a year, you can use the app to find out what percentage of the year it'll take you to sail from Rhode Island to one of the points of the Bermuda triangle. Specifically Bermuda.
 
 I still can't help you about the sailors. That quest is your own...
 
