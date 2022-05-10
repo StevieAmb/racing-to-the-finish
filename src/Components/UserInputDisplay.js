@@ -2,9 +2,7 @@ import React from "react";
 
 const UserInputDisplay = ({time}) => {
   return(
-    <li>
-      {time}
-    </li>
+    <li className="input-times">{time}</li>
   )
 }
 

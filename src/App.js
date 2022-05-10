@@ -14,7 +14,7 @@ class App extends Component {
   }
 
   addTime = (newTime) => {
-    this.setState({userTimeInputs:[...this.state.userTimeInputs, newTime]})
+      this.setState({userTimeInputs:[...this.state.userTimeInputs, newTime]})
   }
 
   
