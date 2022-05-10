@@ -3,9 +3,10 @@ import AvgDisplay from "./AvgDisplay";
 import '../Styling/AvgContainer.css'
 
 const AvgsContainer = ({userInputs}) => {
-
+  console.log("heyp", userInputs)
     let averageMinutes = userInputs.reduce((acc, input) => {
       let racingDays = parseInt(input.substring(input.length - 2, input.length))
+      console.log('rd', racingDays)
       let racingHours = parseInt(input.substring(0, 2))
       let racingMinutes = parseInt(input.substring(3, 5))
       if(input.includes('AM') && racingHours < 12 && racingHours >= 8) {
@@ -26,10 +27,12 @@ const AvgsContainer = ({userInputs}) => {
       return acc
     }, 0)
   let total = averageMinutes ? (averageMinutes/userInputs.length).toFixed(0) : 0
+  console.log('tot', total)
   return (
     <section className="avg-container">
       <AvgDisplay 
         average={total}/>
+        {console.log('avgd', total)}
     </section>
   )
 }

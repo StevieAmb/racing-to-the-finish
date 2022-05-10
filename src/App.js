@@ -14,9 +14,7 @@ class App extends Component {
   }
 
   addTime = (newTime) => {
-    if(!this.state.userTimeInputs.includes(newTime)) {
       this.setState({userTimeInputs:[...this.state.userTimeInputs, newTime]})
-    }
   }
 
   

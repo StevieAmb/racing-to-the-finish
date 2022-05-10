@@ -3,18 +3,21 @@ import UserInputDisplay from "./UserInputDisplay";
 import '../Styling/UserInputContainer.css'
 
 const UserInputContainer = ({userInputTimes}) => {
+  console.log('userInput', userInputTimes)
   let allTimes = userInputTimes.map(input => {
-    console.log('input', input)
+    console.log('put', input)
     return (
       <UserInputDisplay 
-       key={Date.now()}
+       key={input}
        time={input}
        />
     )
   })
   return (
     <section className="input-times">
+      <ul>
         {allTimes}
+      </ul>
     </section>
   )
 }
