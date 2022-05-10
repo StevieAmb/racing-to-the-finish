@@ -5,7 +5,7 @@ const AvgDisplay = ({average}) => {
   return(
     <article className="avg-display">
      <p className="result">Results</p> 
-     <p className="avg-time">{average} minutes total.</p>
+     <p className="avg-time">{average} minutes, on average.</p>
     </article>
   )
 }
