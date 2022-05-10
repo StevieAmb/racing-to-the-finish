@@ -13,7 +13,7 @@ Well, if we believe Johnathan Larson, and there are 525,600 minutes in a year, y
 
 I still can't help you about the sailors. That quest is your own...
 
-Please see deployed link here.
+Please see deployed link [here](https://infinite-dusk-28222.herokuapp.com/).
 
 ## TABLE OF CONTENTS
 - [Project Overview](#project-overview)
