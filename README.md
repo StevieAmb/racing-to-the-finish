@@ -34,8 +34,9 @@ You can see change, just like that!
 Wanna the average time (in minutes)?
 ![Screen Shot 2022-05-09 at 6 11 35 PM](https://user-images.githubusercontent.com/89324625/167518286-1e811af7-359a-4442-ba4e-7205b1bcbf3b.png)
 In due time, just gotta submit it!
+![Screen Shot 2022-05-09 at 6 12 23 PM](https://user-images.githubusercontent.com/89324625/167518213-2981c012-5885-4e08-b3f4-77f9ed6cbc3c.png)
 ![Screen Shot 2022-05-09 at 6 12 12 PM](https://user-images.githubusercontent.com/89324625/167518302-52523394-68f7-46ff-92cc-c6f51fd77c17.png)
-![Screen Shot 2022-05-09 at 6 12 23 PM](https://user-images.githubusercontent.com/89324625/167518320-2a43d619-552c-4a12-a535-7438cd837211.png)
+
 
 
 ## FUTURE FEATURES
