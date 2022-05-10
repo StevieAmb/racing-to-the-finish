@@ -26,11 +26,15 @@ Please see deployed link here.
 Racing To The Finish is a coding challenge meant to stretch the minds of the people who have the opportunity to complete it. It is the s/hero's quest, where one is armed with naught but React.js, CSS, Cypress, GitHub Actions for Continuous Integration, and semantic HTML. With out weapons of choice, we build an app that allows a user to input the time of day they ended a race, and on what day of the race on which they ended it. Because most people are a fan of RENT and musicals, the app returns the average time it takes to sail to a tip of the Bermuda Triangle from Rhode Island in minutes. 
 
 Below are some screenshots showing off the features of the Not Furgotten Website:  
-![Place Pet Up for Adoption](https://media.giphy.com/media/sZT8b1r3y6fyzDuMBm/giphy.gif)
-
-![Pet information page](https://media.giphy.com/media/erEd7Udj4hOq8yoqaL/giphy.gif)  
-
-![Pet Application page](https://media.giphy.com/media/WplDYArTG8YOyG0HUq/giphy.gif) 
+Welcome to the app!
+![Screen Shot 2022-05-09 at 6 12 23 PM](https://user-images.githubusercontent.com/89324625/167518213-2981c012-5885-4e08-b3f4-77f9ed6cbc3c.png)
+You can see change, just like that! 
+![Screen Shot 2022-05-09 at 6 11 10 PM](https://user-images.githubusercontent.com/89324625/167518254-52918613-183c-49ca-8421-cbb7f76d6210.png)
+Wanna the average time (in minutes)?
+![Screen Shot 2022-05-09 at 6 11 35 PM](https://user-images.githubusercontent.com/89324625/167518286-1e811af7-359a-4442-ba4e-7205b1bcbf3b.png)
+In due time, just gotta submit it!
+![Screen Shot 2022-05-09 at 6 12 12 PM](https://user-images.githubusercontent.com/89324625/167518302-52523394-68f7-46ff-92cc-c6f51fd77c17.png)
+![Screen Shot 2022-05-09 at 6 12 23 PM](https://user-images.githubusercontent.com/89324625/167518320-2a43d619-552c-4a12-a535-7438cd837211.png)
 
 
 ## FUTURE FEATURES
@@ -76,8 +80,3 @@ In the future, I would want to:
 
 
 #### [BACK TO THE TOP!](racing-to-the-finish)
-![Screen Shot 2022-05-09 at 6 12 23 PM](https://user-images.githubusercontent.com/89324625/167518213-2981c012-5885-4e08-b3f4-77f9ed6cbc3c.png)
-![Screen Shot 2022-05-09 at 6 11 10 PM](https://user-images.githubusercontent.com/89324625/167518254-52918613-183c-49ca-8421-cbb7f76d6210.png)
-![Screen Shot 2022-05-09 at 6 11 35 PM](https://user-images.githubusercontent.com/89324625/167518286-1e811af7-359a-4442-ba4e-7205b1bcbf3b.png)
-![Screen Shot 2022-05-09 at 6 12 12 PM](https://user-images.githubusercontent.com/89324625/167518302-52523394-68f7-46ff-92cc-c6f51fd77c17.png)
-![Screen Shot 2022-05-09 at 6 12 23 PM](https://user-images.githubusercontent.com/89324625/167518320-2a43d619-552c-4a12-a535-7438cd837211.png)
