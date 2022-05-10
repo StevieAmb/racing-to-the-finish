@@ -7,14 +7,14 @@ const UserInputContainer = ({userInputTimes}) => {
     console.log('input', input)
     return (
       <UserInputDisplay 
-       key={input}
+       key={Date.now()}
        time={input}
        />
     )
   })
   return (
     <section className="input-times">
-      {allTimes}
+        {allTimes}
     </section>
   )
 }
