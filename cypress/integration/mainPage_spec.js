@@ -6,7 +6,7 @@ describe('Main Page', () => {
   it('User should see the nav bar, the input field which they can type into and submit information, the submit button, the list of times submitted, and the avg minutes', () => {
     cy.get('.nav-bar')
     .get('svg')
-    .get('label').contains('Race Time:')
+    .get('label').contains('Race Time')
     .get('input').type('02:00 PM, DAY 19')
     .get('button').contains('Submit').click()
     .get('input').type('02:00 PM, DAY 20')
