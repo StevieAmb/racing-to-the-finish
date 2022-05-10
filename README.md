@@ -66,8 +66,9 @@ In the future, I would want to:
 ## AUTHORS/LINKS
 
 #### Project Links
-- [Project Board](https://github.com/orgs/2110CapstoneProject/projects/1)
-- [Architecture Design](https://miro.com/app/board/uXjVODUlug4=/)
+- [Project Board](https://github.com/StevieAmb/racing-to-the-finish/projects/1)
+
+[Architecture Design](https://user-images.githubusercontent.com/89324625/167519252-8d9e5b4b-49ef-4cc0-ac5b-a1ed7e0641e1.png)
 
 #### AUTHORS:
 
