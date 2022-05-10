@@ -28,13 +28,13 @@ Racing To The Finish is a coding challenge meant to stretch the minds of the peo
 
 Below are some screenshots showing off the features of the Not Furgotten Website:  
 Welcome to the app!
-
+![Screen Shot 2022-05-09 at 8 10 41 PM](https://user-images.githubusercontent.com/89324625/167528654-c04f5029-cbe6-4969-b8c0-fa1b3abde8d8.png)
 You can see change, just like that! 
-
-Wanna the average time (in minutes)?
-
+![Screen Shot 2022-05-09 at 8 10 51 PM](https://user-images.githubusercontent.com/89324625/167528683-33209456-7253-4d32-aea4-66f01d379c84.png)
+Want the average time (in minutes)?
+![Screen Shot 2022-05-09 at 8 12 31 PM](https://user-images.githubusercontent.com/89324625/167528721-35e8e4e8-ebb4-4151-949f-8324e4bb716b.png)
 In due time, just gotta submit it!
-
+![Screen Shot 2022-05-09 at 8 12 39 PM](https://user-images.githubusercontent.com/89324625/167528747-62bcde36-d696-40e5-a692-3bb4dfe88867.png)
 
 ## FUTURE FEATURES
 In the future, I would want to:
@@ -79,3 +79,7 @@ In the future, I would want to:
 
 
 #### [BACK TO THE TOP!](#racing-to-the-finish)
+
+
+
+
