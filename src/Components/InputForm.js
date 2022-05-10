@@ -28,7 +28,7 @@ class InputForm extends Component {
     return (
       <form>
         <label className="form-label">
-          Race Time:
+          Race Time
         </label>
         <div className="user-input">
           <input
