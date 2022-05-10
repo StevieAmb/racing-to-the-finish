@@ -60,7 +60,7 @@ In the future, I would want to:
 ## INSTRUCTIONS FOR INSTALLATION (if you want to get into the nitty gritty)
 - fork the repository
 - copy the SSH clone address
-- run ```git clone git@github.com:2110CapstoneProject/not-fur-gotten-fe.git``` in your repo
+- run ```git clone git@github.com:StevieAmb/racing-to-the-finish.git``` in your repo
 - run ```npm install``` in your terminal
 - run ```npm start``` in the Terminal visit localhost:3000
 
