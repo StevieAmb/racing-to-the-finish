@@ -25,7 +25,12 @@ describe('Main Page', () => {
     .children('li')
     .eq(2)
     .contains('01:58 PM, DAY 20')
-    .get('.avg-display').contains('27239 minutes total.')
+    .get('.avg-display').contains('27239 minutes, on average.')
+  })
+
+  it('User should see O minutes before they input any data', () => {
+    cy.get('input')
+    .get('.avg-display').contains('0 minutes, on average')
   })
 
 })
