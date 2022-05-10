@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Racing To The Finish
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+How long would it take someone to get to one of the tips Bermuda Triangle from Rhode Island? Since you're here, I know you are one of the inquiring minds, and this app can tell you average time in minutes it has taken different sailors to get there.
 
-## Available Scripts
+Why in minutes?
 
-In the project directory, you can run:
+Where will you find sailors to put in this information into the app for you?
 
-### `npm start`
+I can answer the first question, but not the second one. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I take it you've seen this video. Well, if we believe Johnathan Larson, and there are 525,600 minutes in a year, you can use the app to find out what percentage of the year it'll take you to sail from Rhode Island to one of the points of the Bermuda triangle. Specifically Bermuda.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I still can't help you about the sailors. That quest is your own...
 
-### `npm test`
+Please see deployed link here.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## TABLE OF CONTENTS
+- [Project Overview](#project-overview)
+- [Future Features](#future-features)
+- [Tech Stack](#technologies-used)
+- [Install Instructions](#instructions)
+- [Authors/Links](#authorslinks)
+- [Credit](#credit)
 
-### `npm run build`
+## OVERVIEW
+Racing To The Finish is a coding challenge meant to stretch the minds of the people who have the opportunity to complete it. It is the s/hero's quest, where one is armed with naught but React.js, CSS, Cypress, GitHub Actions for Continuous Integration, and semantic HTML. With out weapons of choice, we build an app that allows a user to input the time of day they ended a race, and on what day of the race on which they ended it. Because most people are a fan of RENT and musicals, the app returns the average time it takes to sail to a tip of the Bermuda Triangle from Rhode Island in minutes. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Below are some screenshots showing off the features of the Not Furgotten Website:  
+![Place Pet Up for Adoption](https://media.giphy.com/media/sZT8b1r3y6fyzDuMBm/giphy.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Pet information page](https://media.giphy.com/media/erEd7Udj4hOq8yoqaL/giphy.gif)  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Pet Application page](https://media.giphy.com/media/WplDYArTG8YOyG0HUq/giphy.gif) 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## FUTURE FEATURES
+In the future, I would want to:
+- Add a delete feature to the submitted user input time, so that if you insert a time that's not accurate, you can delete it if you don't want it as part of the avaerage.
+- Make the application mobile responsive.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## TECHNOLOGIES USED 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
+![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=Webpack&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-## Learn More
+## INSTRUCTIONS FOR INSTALLATION (if you want to get into the nitty gritty)
+- fork the repository
+- copy the SSH clone address
+- run ```git clone git@github.com:2110CapstoneProject/not-fur-gotten-fe.git``` in your repo
+- run ```npm install``` in your terminal
+- run ```npm start``` in the Terminal visit localhost:3000
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## AUTHORS/LINKS
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Project Links
+- [Project Board](https://github.com/orgs/2110CapstoneProject/projects/1)
+- [Architecture Design](https://miro.com/app/board/uXjVODUlug4=/)
 
-### Code Splitting
+#### AUTHORS:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Jenny McKenzie, who did the comp I was meant to replicate.
+- Stevie Ambroise: 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stevieambroise/) [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/StevieAmb)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### [BACK TO THE TOP!](racing-to-the-finish)
