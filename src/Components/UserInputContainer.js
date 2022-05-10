@@ -15,7 +15,7 @@ const UserInputContainer = ({userInputTimes}) => {
   })
   return (
     <section className="input-times">
-      <ul>
+      <ul className="input-list">
         {allTimes}
       </ul>
     </section>
